@@ -16,14 +16,7 @@
   <header class="nav">
     <div class="container nav__inner">
       <a href="index.html" class="logo logo--dark" aria-label="DFORTH Technologies home">
-        <span class="logo__main"><span class="grad-text">DFORTH</span>
-          <span class="logo__chev"><svg viewBox="0 0 30 16" fill="none" aria-hidden="true">
-            <defs><linearGradient id="lgN" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7c5cfc"/><stop offset="1" stop-color="#e14eca"/></linearGradient></defs>
-            <path d="M3 3 L12 8 L3 13" stroke="url(#lgN)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M15 3 L24 8 L15 13" stroke="url(#lgN)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg></span>
-        </span>
-        <span class="logo__sub">Technologies</span>
+        <img class="logo__full" src="assets/img/logo-full.svg" alt="DFORTH Technologies" />
       </a>
       <nav class="nav__links">
         <a href="index.html" class="active">Home</a>
@@ -144,12 +137,13 @@
           <a href="contact.html" class="btn btn--grad">See our work <span class="arrow">→</span></a>
         </div>
         <div class="why__globe reveal">
-          <div class="core"><span class="globe-sphere"></span></div>
-          <div class="why__tag t1"><span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/></svg></span>Globally qualified techies</div>
-          <div class="why__tag t2"><span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></span>Comprehensive approach</div>
-          <div class="why__tag t3"><span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M16 3a4 4 0 0 1 0 8M8 21v-2a4 4 0 0 1 4-4"/><circle cx="6" cy="7" r="4"/></svg></span>Synergized collaboration</div>
-          <div class="why__tag t4"><span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 3v4M3 5h4M6 17v4M4 19h4"/><path d="M14 4l3 7-7 3 7 3-3 7"/></svg></span>Concept to launch execution</div>
-          <div class="why__tag t5"><span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/><circle cx="12" cy="12" r="4"/></svg></span>AI tech augmented</div>
+          <span class="why__ring"></span>
+          <span class="why__sphere-wrap"><img class="why__sphere" src="assets/img/globe.svg" alt="Global network of professionals" width="300" height="300" /></span>
+          <div class="why__tag t1"><span class="why__ic"><img src="assets/img/icon-worldwide.svg" alt="" /></span><span class="why__lbl">Globally qualified techies</span></div>
+          <div class="why__tag t2"><span class="why__ic"><img src="assets/img/icon-handshake.svg" alt="" /></span><span class="why__lbl">Comprehensive cum collaborative approach</span></div>
+          <div class="why__tag t3"><span class="why__ic"><img src="assets/img/icon-community.svg" alt="" /></span><span class="why__lbl">Synergized collaboration</span></div>
+          <div class="why__tag t4"><span class="why__ic"><img src="assets/img/icon-bulb.svg" alt="" /></span><span class="why__lbl">Concept to Launch execution</span></div>
+          <div class="why__tag t5"><span class="why__ic"><img src="assets/img/icon-microchip.svg" alt="" /></span><span class="why__lbl">AI Tech Augmented</span></div>
         </div>
       </div>
     </div>
@@ -274,32 +268,33 @@
   <section class="section section--alt">
     <div class="container">
       <div class="section-head reveal"><h2>Articles &amp; Resources</h2></div>
-      <div class="blog-feature reveal">
-        <div class="blog-feature__media"><img src="assets/img/blog-seo.jpeg" alt="SEO trends" /></div>
-        <div>
-          <span class="tag">SEO</span>
-          <h2>5 SEO Trends to Watch in 2024</h2>
-          <p>Explore the top SEO trends that will shape digital marketing in 2024, including AI-driven strategies, voice search optimization and user experience improvements.</p>
-          <a href="blog-detail.html" class="btn btn--ghost">Learn more <span class="arrow">→</span></a>
+      <div class="articles-split">
+        <a href="blog-detail.html" class="feature-card reveal">
+          <img src="assets/img/blog-seo.jpeg" alt="5 SEO Trends to Watch in 2024" />
+          <div class="feature-card__overlay">
+            <span class="tag">SEO</span>
+            <h3>5 SEO Trends to Watch in 2024</h3>
+            <p>Explore the top SEO trends that will shape digital marketing in 2024, including AI-driven strategies, voice search optimization and user experience improvements.</p>
+          </div>
+        </a>
+        <div class="articles-list">
+          <article class="bcard reveal">
+            <div class="bcard__body">
+              <h3>How to Craft Compelling Content for Your Audience</h3>
+              <p>Learn the essential elements of creating engaging content that resonates with your audience and drives conversions.</p>
+              <a href="blog-detail.html" class="read-pill">Learn more <span class="arrow">→</span></a>
+            </div>
+            <a href="blog-detail.html" class="bcard__media"><img src="assets/img/blog-content.jpeg" alt="Compelling content" /></a>
+          </article>
+          <article class="bcard reveal">
+            <div class="bcard__body">
+              <h3>The Role of Social Media in Digital Marketing</h3>
+              <p>Discover how social-media platforms can enhance brand visibility and customer engagement in your digital marketing strategies.</p>
+              <a href="blog-detail.html" class="read-pill">Learn more <span class="arrow">→</span></a>
+            </div>
+            <a href="blog-detail.html" class="bcard__media"><img src="assets/img/blog-social.jpeg" alt="Social media marketing" /></a>
+          </article>
         </div>
-      </div>
-      <div class="bgrid">
-        <article class="bcard reveal">
-          <div class="bcard__body">
-            <h3>How to Craft Compelling Content for Your Audience</h3>
-            <p>Learn the essential elements of creating engaging content that resonates with your audience and drives conversions.</p>
-            <a href="blog-detail.html" class="read-pill">Learn more <span class="arrow">→</span></a>
-          </div>
-          <a href="blog-detail.html" class="bcard__media"><img src="assets/img/blog-content.jpeg" alt="Compelling content" /></a>
-        </article>
-        <article class="bcard reveal">
-          <div class="bcard__body">
-            <h3>The Role of Social Media in Digital Marketing</h3>
-            <p>Discover how social-media platforms can enhance brand visibility and customer engagement in your digital marketing strategies.</p>
-            <a href="blog-detail.html" class="read-pill">Learn more <span class="arrow">→</span></a>
-          </div>
-          <a href="blog-detail.html" class="bcard__media"><img src="assets/img/blog-social.jpeg" alt="Social media marketing" /></a>
-        </article>
       </div>
       <div class="center-actions"><a href="blog.html" class="btn btn--grad">View All <span class="arrow">→</span></a></div>
     </div>
@@ -372,14 +367,7 @@
       <div class="footer__grid">
         <div class="footer__about">
           <a href="index.html" class="logo logo--light" aria-label="DFORTH Technologies home">
-            <span class="logo__main">DFORTH
-              <span class="logo__chev"><svg viewBox="0 0 30 16" fill="none" aria-hidden="true">
-                <defs><linearGradient id="lgF" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7c5cfc"/><stop offset="1" stop-color="#e14eca"/></linearGradient></defs>
-                <path d="M3 3 L12 8 L3 13" stroke="url(#lgF)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M15 3 L24 8 L15 13" stroke="url(#lgF)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg></span>
-            </span>
-            <span class="logo__sub">Technologies</span>
+            <img class="logo__full" src="assets/img/logo-full.svg" alt="DFORTH Technologies" />
           </a>
           <p>At DFORTH, we excel in bringing visionary ideas to life through captivating designs and seamless, user-centric experiences.</p>
           <div class="socials">
@@ -392,29 +380,31 @@
         <div class="footer__col">
           <h4>Quick Links</h4>
           <a href="about.html">About Us</a>
-          <a href="blog.html">Resources</a>
+          <a href="services.html">Services</a>
+          <a href="blog.html">Blog</a>
           <a href="contact.html">Contact Us</a>
-          <a href="contact.html">Career</a>
+          <a href="contact.html">Careers</a>
         </div>
         <div class="footer__col">
           <h4>Services</h4>
-          <a href="services.html">Managed Third-Party Risk</a>
-          <a href="services.html">New Software Testing Plugin</a>
-          <a href="services.html">Mobile App Development</a>
-          <a href="services.html">AI &amp; Machine Learning</a>
+          <a href="services.html">UI / UX Design</a>
+          <a href="services.html">Web Development</a>
+          <a href="services.html">Mobile Development</a>
+          <a href="services.html">E-Commerce</a>
+          <a href="services.html">SharePoint Services</a>
         </div>
         <div class="footer__col footer__contact">
-          <h4>Contacts us</h4>
+          <h4>Contact Us</h4>
           <ul>
             <li><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg><span><a href="mailto:info@dforth.in">info@dforth.in</a></span></li>
             <li><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span><a href="tel:+914692423602">+1 (469) 242 3602</a></span></li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Temple Tower, 672 Ground Floor, 476 Anna Salai, Nandanam, Chennai, Tamil Nadu 600035</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Level 5, Olympia Teknos Park 28, South Phase, Ambedkar Nagar, SIDCO Industrial Estate, Guindy, Chennai, Tamil Nadu 600032</span></li>
           </ul>
         </div>
       </div>
       <div class="footer__bottom">
-        <span>© <span data-year>2024</span> All rights reserved.</span>
-        <div class="footer__legal"><a href="#">Terms of service</a><a href="#">Privacy Policy</a></div>
+        <span>© <span data-year>2026</span> Dexio LabX Pvt. Lmt. All rights reserved.</span>
+        <div class="footer__legal"><a href="#">Terms of Service</a><a href="#">Privacy Policy</a></div>
       </div>
     </div>
   </footer>
